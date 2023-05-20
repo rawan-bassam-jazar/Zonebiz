@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zonebiz</title>
+
+    <!-- bootstrap css file(downloaded on device) -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- fontAwesome css file(downloaded) -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- cssfile -->
+    <link rel="stylesheet" href="assets/css/style.css">
+ 
+  
+</head>
+<body>
+    <!-- Top nav -->
+    <div class="top-nav d-sm-block d-none"> <!--important note: d-sm-block >> all sizes above the sm size is visible(xl,lg,md,sm)  ,,  d-none >> all the sizes below the sm is hidden (xs)-->
+        <div class="container">
+            <div class="content">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-link"></i></a></li>
+            </ul>
+            <ul class="contact my-2">
+                <li>
+                    <a href="" class="d-flex">
+                    <i class="fa-solid fa-phone p-1"></i>
+                    <p>011 2635 0869</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex">
+                    <i class="fa-solid fa-map-location p-1"></i>
+                    <p> El Beheira, El Noubareya</p>
+                    </a>
+                </li>
+            </ul>
+            </div>
+            
+        </div>
+    </div>
+
+
+      <!-- main nav --> 
+    <div class="main-nav">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <div class="content d-flex w-100 align-items-center">
+          <a href="" class="navbar-brand"><img src="images/logo/logo.png" alt="..."></a>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div> 
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active"><a href="" class="nav-link">thdtyudtyuudt</a></li>
+            <li class="nav-item"><a href="" class="nav-link">thdtyudtyuudt</a></li>
+            <li class="nav-item"><a href="" class="nav-link">fofo</a></li>
+            <li class="nav-item dropdown">
+                <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">pages</a>
+                <ul class="dropdown-menu ">
+                    <li><a href=""  class="dropdown-item">Action</a></li>
+                    <li><a href=""  class="dropdown-item">Another Action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a href=""  class="dropdown-item">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">portfolio</a>
+              <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">Action</a></li>
+                <li><a href="" class="dropdown-item">Another Action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a href="" class="dropdown-item">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" >blog</a>
+              <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">Action</a></li>
+                <li><a href="" class="dropdown-item">Another Action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a href="" class="dropdown-item">Something else here</a></li>
+                 
+              </ul>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">contact</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    </div>
+
+
+ 
+    <!--carousel -->
+    <div class="main-carousel">
+    <div class="carousel slide" id="carouselExampleIndicators">
+     <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="slide 3"></button>
+     </div>
+     <div class="carousel-inner">
+      <div class="carousel-item active" >
+        <img src="images/slide1.jpg"  alt="" class="d-block w-100">
+        <div class="carousel-caption d-md-block d-none">
+          <h1>welcome to zonebiz</h1>
+          <p>A Great Theme For Business Consulting</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/slide2.jpg"  alt="" class="d-block w-100">
+        <div class="carousel-caption d-md-block d-none">
+          <h1>welcome to zonebiz</h1>
+          <p>A Great Theme For Business Consulting</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/slide 3.jpg"  alt="" class="d-block w-100">
+        <div class="carousel-caption d-md-block d-none">
+          <h1>welcome to zonebiz</h1>
+          <p>A Great Theme For Business Consulting</p>
+        </div>
+      </div>
+     </div>
+
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+      <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+      <span  class="visually-hidden">next</span>
+     </button>
+
+    </div>
+
+    </div>
+
+
+    <!-- About -->
+
+  <div class="about py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 my-4 ">
+          <h2 class="fw-bold fs-1">Welcome to KlayFP.me</h2>
+          <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <br><br>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul class="text-secondary">
+              <h5 class="fs-4">Our smart approach</h5>
+              <li><i class="fa-solid fa-caret-down text-primary px-2"></i>Sed at tellus eu quam posuere mattis.</li>
+              <li><i class="fa-solid fa-caret-down text-primary px-2"></i> Phasellus quis erat et enim laoreet posuere ac porttitor ipsum.</li>
+              <li><i class="fa-solid fa-caret-down text-primary px-2"></i> Phasellus quis erat et enim laoreet posuere ac porttitor ipsum.</li>
+            </ul>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <img src="images/KlayFP.me.jpg" alt="" class="w-100 h-100 rounded-3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- titleOfSection(common) -->
+  <!-- <div class="titleSection ">
+    <h2>our best services</h2>
+  </div> -->
+
+
+  <!-- services -->
+<div class="services py-5">
+  <div class="container">
+  <div class="titleSection mb-5">
+    <h2>our best services</h2>
+  </div>
+
+    <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card shadow">
+        <img src="images/Services1.jpg" class="card-img-top" alt="...">
+        <div class="card-body py-4">
+           <a href="" class="fs-4">Card title</a>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card shadow">
+        <img src="images/Services2.jpg" class="card-img-top" alt="...">
+        <div class="card-body py-4">
+           <a href="" class="fs-4">Card title</a>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card shadow">
+        <img src="images/Services3.jpg" class="card-img-top" alt="...">
+        <div class="card-body py-4">
+           <a href="" class="fs-4">Card title</a>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card shadow">
+        <img src="images/Services4.jpg" class="card-img-top" alt="...">
+        <div class="card-body py-4">
+           <a href="" class="fs-4">Card title</a>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card shadow">
+        <img src="images/Services5.jpg" class="card-img-top" alt="...">
+        <div class="card-body py-4">
+           <a href="" class="fs-4">Card title</a>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card shadow">
+        <img src="images/Services6.jpg" class="card-img-top" alt="...">
+        <div class="card-body py-4">
+           <a href="" class="fs-4">Card title</a>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    
+    </div>
+  </div>
+</div>
+
+
+<!-- portfolio -->
+<div class="portfolio">
+  <div class="container">
+    <div class="titleSection mb-5">
+      <h2>our portfolio</h2>
+    </div>
+
+    <div class="actions">
+      <ul class="row">
+      <li class="col-md active" data-class=".all">All</li>
+      <li class="col-md" data-class=".Websites">Websites</li>
+      <li class="col-md" data-class=".Logos">Logos</li>
+      <li class="col-md" data-class=".Graphic">Graphic</li>
+      <li class="col-md" data-class=".Marketing">Marketing</li>
+      <li class="col-md" data-class=".Videos">Videos</li>
+    </ul>
+    </div>
+
+
+  
+      <div class="images-folder">
+        <div class="row">
+        <div class="col-lg-3"><div class="box"><img class="Marketing" src="images/gallery (1).jpg" alt=""></div></div>
+        <div class="col-lg-3"><div class="box"><img class="Graphic" src="images/gallery (2).jpg" alt=""></div></div>
+        <div class="col-lg-3"><div class="box"><img class="Videos" src="images/gallery (3).jpg" alt=""></div></div>
+        <div class="col-lg-3"><div class="box"><img class="Logos" src="images/gallery (4).jpg" alt=""></div></div>
+        <div class="col-lg-3"><div class="box"><img class="Websites" src="images/gallery (5).jpg" alt=""></div></div>
+        <div class="col-lg-3"><div class="box"><img class="Graphic" src="images/gallery (6).jpg" alt=""></div></div>
+        <div class="col-lg-3"><div class="box"><img class="Graphic" src="images/gallery (1).jpg" alt=""></div></div>
+        <div class="col-lg-3"><div class="box"><img class="Videos" src="images/gallery (2).jpg" alt=""></div></div>
+        </div>
+
+      </div>
+    
+
+ 
+  </div>
+</div>
+
+
+
+<!-- blog -->
+<div class="blog py-5">
+  .<div class="container">
+
+
+    <div class="titleSection mb-5">
+      <h2>our blogs</h2>
+    </div>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+
+
+            <div class="blog-box col-lg-4 my-4">
+              <div class="blog-title">
+                <a href="" class="fs-3">latest plog post</a>
+                <div class="blog-info d-flex justify-content-between  my-3">
+                  <div class="blog-user d-flex align-items-center">
+                  <img src="images/user.jpg" alt="">
+                  <h5 class="text-secondary">KlaY</h5>
+                  </div>
+
+                  <div class="blog-date d-flex align-items-center fs-5">
+                    <i class="fa-solid fa-calendar text-primary m-2"></i>
+                    <p class="text-primary mb-0">4 june 2020</p>
+                  </div>
+                </div> 
+                 <div class="blog-image">
+                  <img src="images/post1.jpg" alt="" class="w-100 rounded-3">
+                 </div>
+                 <div class="blog-content py-3 text-secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac. </p>
+                 </div>
+              </div>
+            </div>
+
+
+
+            <div class="blog-box col-lg-4 my-4">
+              <div class="blog-title">
+                <a href="" class="fs-3">latest plog post</a>
+                <div class="blog-info d-flex justify-content-between  my-3">
+                  <div class="blog-user d-flex align-items-center">
+                  <img src="images/user.jpg" alt="">
+                  <h5 class="text-secondary">KlaY</h5>
+                  </div>
+
+                  <div class="blog-date d-flex align-items-center fs-5">
+                    <i class="fa-solid fa-calendar text-primary m-2"></i>
+                    <p class="text-primary mb-0">4 june 2020</p>
+                  </div>
+                </div> 
+                 <div class="blog-image">
+                  <img src="images/post2.jpg" alt="" class="w-100 rounded-3">
+                 </div>
+                 <div class="blog-content py-3 text-secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac. </p>
+                 </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="blog-box col-lg-4 my-4">
+              <div class="blog-title">
+                <a href="" class="fs-3">latest plog post</a>
+                <div class="blog-info d-flex justify-content-between  my-3">
+                  <div class="blog-user d-flex align-items-center">
+                  <img src="images/user.jpg" alt="">
+                  <h5 class="text-secondary">KlaY</h5>
+                  </div>
+
+                  <div class="blog-date d-flex align-items-center fs-5">
+                    <i class="fa-solid fa-calendar text-primary m-2"></i>
+                    <p class="text-primary mb-0">4 june 2020</p>
+                  </div>
+                </div> 
+                 <div class="blog-image">
+                  <img src="images/post3.jpg" alt="" class="w-100 rounded-3">
+                 </div>
+                 <div class="blog-content py-3 text-secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac. </p>
+                 </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+ 
+
+
+        <div class="carousel-item ">
+          <div class="row">
+
+
+            <div class="blog-box col-lg-4 my-4">
+              <div class="blog-title">
+                <a href="" class="fs-3">latest plog post</a>
+                <div class="blog-info d-flex justify-content-between  my-3">
+                  <div class="blog-user d-flex align-items-center">
+                  <img src="images/user.jpg" alt="">
+                  <h5 class="text-secondary">KlaY</h5>
+                  </div>
+
+                  <div class="blog-date d-flex align-items-center fs-5">
+                    <i class="fa-solid fa-calendar text-primary m-2"></i>
+                    <p class="text-primary mb-0">4 june 2020</p>
+                  </div>
+                </div> 
+                 <div class="blog-image">
+                  <img src="images/post4.jpg" alt="" class="w-100 rounded-3">
+                 </div>
+                 <div class="blog-content py-3 text-secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac. </p>
+                 </div>
+              </div>
+            </div>
+
+
+
+            <div class="blog-box col-lg-4 my-4">
+              <div class="blog-title">
+                <a href="" class="fs-3">latest plog post</a>
+                <div class="blog-info d-flex justify-content-between  my-3">
+                  <div class="blog-user d-flex align-items-center">
+                  <img src="images/user.jpg" alt="">
+                  <h5 class="text-secondary">KlaY</h5>
+                  </div>
+
+                  <div class="blog-date d-flex align-items-center fs-5">
+                    <i class="fa-solid fa-calendar text-primary m-2"></i>
+                    <p class="text-primary mb-0">4 june 2020</p>
+                  </div>
+                </div> 
+                 <div class="blog-image">
+                  <img src="images/post1.jpg" alt="" class="w-100 rounded-3">
+                 </div>
+                 <div class="blog-content py-3 text-secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac. </p>
+                 </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="blog-box col-lg-4 my-4">
+              <div class="blog-title">
+                <a href="" class="fs-3">latest plog post</a>
+                <div class="blog-info d-flex justify-content-between  my-3">
+                  <div class="blog-user d-flex align-items-center">
+                  <img src="images/user.jpg" alt="">
+                  <h5 class="text-secondary">KlaY</h5>
+                  </div>
+
+                  <div class="blog-date d-flex align-items-center fs-5">
+                    <i class="fa-solid fa-calendar text-primary m-2"></i>
+                    <p class="text-primary mb-0">4 june 2020</p>
+                  </div>
+                </div> 
+                 <div class="blog-image">
+                  <img src="images/post2.jpg" alt="" class="w-100 rounded-3">
+                 </div>
+                 <div class="blog-content py-3 text-secondary">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac. </p>
+                 </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--top footer -->
+<div class="top-footer p-5">
+  <div class="container">
+    <div class="row my-4">
+      <div class="col-md-9 text-white">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+      </div>
+
+      <div class="col-md-3 text-center">
+         <button class="btn btn-light px-5 py-2 fw-bold">Contact Us</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- main-footer -->
+<div class="main-footer py-5">
+  <div class="container">
+    <div class="content">
+       <div class="row">
+      <div class="col-md-3 d-md-block d-none">
+        <h4>about au</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+        <ul class="social-media">
+          <li class="facebook"><span><i class="fa-brands fa-facebook fa-lg"></i></span></li>
+          <li class="twitter"><span><i class="fa-brands fa-twitter  fa-lg"></i></span></li>
+          <li class="instagram"><span><i class="fa-brands fa-instagram  fa-lg"></i></span></li>
+          <li class="googleplus"><span><i class="fa-brands fa-google-plus-g  fa-lg"></i></span></li>
+          <li class="map"><span><i class="fa-solid fa-globe  fa-lg"></i></span></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h4>Quick links</h4>
+        <ul class="links m-0 p-0">
+        <li><i class="fa-solid fa-arrow-right"></i>Default version </li>
+        <li><i class="fa-solid fa-arrow-right"></i>DBoxed version </li>
+        <li><i class="fa-solid fa-arrow-right"></i>DOut tesm </li>
+        <li><i class="fa-solid fa-arrow-right"></i>DAbout us  </li>
+        <li><i class="fa-solid fa-arrow-right"></i>DGet Touch </li>   
+        </ul>
+
+      </div>
+
+      <div class="col-md-3">
+        <h4>Follow Us</h4>
+        <ul class="follows">
+          <li>
+            <i class="fa-brands fa-twitter fa-sm"></i> 
+             <p> Lorem Ipsum is simply dummy... 
+            <a href="https://www.klayfb.me/" >https://www.klayfb.me/</a>
+            </p>
+          </li>
+          <li>
+            <i class="fa-brands fa-twitter fa-lg"></i> 
+            <p> Lorem Ipsum is simply dummy... 
+           <a href="https://www.klayfb.me/" >https://www.klayfb.me/</a>
+           </p>
+          </li>
+          <li>
+            <i class="fa-brands fa-twitter fa-xl"></i> 
+            <p> Lorem Ipsum is simply dummy... 
+           <a href="https://www.klayfb.me/" >https://www.klayfb.me/</a>
+           </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h4>NewsLetter</h4>
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+        <div class="search">
+        
+          <input type="text" name="" id="" placeholder="Username" class="form-control" >
+          <a href="#"><i class="fa-solid fa-at"></i></a>
+           
+        </div>
+      </div>
+    </div>
+    </div>
+   
+  </div>
+  <hr class="text-white">
+  <div class="copyright  position-relative text-capitalize fs-4">
+  <p>all right reserved . &copy; 2020  <a href="">klayfb</a> design by:<a href="">Html Design</a></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bootstrap js file (downloaded on device) -->
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+<!--  fontAwesome js file(downloaded)  -->
+<script src="assets/js/all.min.js"></script>
+
+<!-- jsFile -->
+<script src="assets/js/main.js"></script>
+ 
+
+</body>
+</html>
